@@ -27,7 +27,7 @@ namespace QuantConnect.DataSource
     /// Example custom data type
     /// </summary>
     [ProtoContract(SkipConstructor = true)]
-    public class MyCustomDataType : BaseData
+    public class __ExampleTestingPythonScriptMyCustomDataTypeDoNotUse : BaseData
     {
         /// <summary>
         /// Some custom data property
