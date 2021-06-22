@@ -68,7 +68,7 @@ namespace QuantConnect.DataSource
             var csv = line.Split(',');
 
             var parsedDate = Parse.DateTimeExact(csv[0], "yyyyMMdd");
-            return new MyCustomDataType
+            return new __ExampleTestingPythonScriptMyCustomDataTypeDoNotUse
             {
                 Symbol = config.Symbol,
                 SomeCustomProperty = csv[1],
@@ -83,7 +83,7 @@ namespace QuantConnect.DataSource
         /// <returns>A clone of the object</returns>
         public override BaseData Clone()
         {
-            return new MyCustomDataType
+            return new __ExampleTestingPythonScriptMyCustomDataTypeDoNotUse
             {
                 Symbol = Symbol,
                 Time = Time,

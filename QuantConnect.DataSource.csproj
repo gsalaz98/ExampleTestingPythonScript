@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>QuantConnect.DataSource</RootNamespace>
-    <AssemblyName>QuantConnect.DataSource.ExamplePythonScriptMyCustomDataTypeDoNotUse</RootNamespace>
+    <AssemblyName>QuantConnect.DataSource.ExamplePythonScriptMyCustomDataTypeDoNotUse</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
